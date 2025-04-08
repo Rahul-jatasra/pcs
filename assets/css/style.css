@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-family: "Inter", sans-serif;
+}
+.fs-sm {
+  font-size: var(--font-sm);
+}
+.fs-md {
+  font-size: var(--font-md);
+}
+.fs-lg {
+  font-size: var(--font-lg);
+}
+.fs-xl {
+  font-size: var(--font-xl);
+}
+.fs-xxl {
+  font-size: var(--font-xxl);
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-800 {
+  font-weight: 800;
+}
+.bg-red {
+  background-color: var(--color-red);
+}
+.bg-blue {
+  background-color: var(--color-blue);
+}
+.text-blue {
+  color: var(--color-blue);
+}
+.text-white {
+  color: var(--color-white);
+}
+.text-red {
+  color: var(--color-red);
+}
+.text-black {
+  color: var(--color-black);
+}
+.d-flex {
+  display: flex;
+}
+.max-w {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+nav {
+  position: relative;
+  background-image: url("/assets/images/png/hero-bg-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.hero-section {
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px 118px 0px;
+  gap: 8px;
+}
+.nav-links {
+  gap: 24px;
+}
+.nav-links a:hover {
+  scale: 1.1;
+}
+.contact-nav-btn {
+  width: 200px;
+  height: 51px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+.contact-nav-btn:hover {
+  background-color: #d21245;
+}
+.hamburger {
+  display: none;
+  font-size: 26px;
+  color: white;
+  cursor: pointer;
+}
+.hero-main {
+  max-width: 599px;
+  width: 100%;
+}
+.hero-text {
+  margin-top: 16px;
+  line-height: 110%;
+}
+.hero-text2 {
+  margin-top: 35px;
+  line-height: 140%;
+}
+.schedule-hero-btn {
+  width: 291px;
+  height: 51px;
+  border: none;
+  border-radius: 50px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 130px;
+  cursor: pointer;
+}
+.schedule-hero-btn:hover {
+  background-color: #d21245;
+}
+.contactus-main {
+  width: 100%;
+  background-image: url("/assets/images/png/contactus-bg-img.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 71px;
+  padding-bottom: 71px;
+  margin-top: 108px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+.contact-us {
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.contact-text {
+  max-width: 700px;
+  width: 100%;
+}
+.contact-us-btn {
+  width: 200px;
+  height: 51px;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+/* Sidebar */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -2000px;
+  width: 100%;
+  height: 100%;
+  background-color: #0c1d4d;
+  padding: 60px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  transition: 0.3s ease;
+  z-index: 1000;
+}
+.sidebar .close-btn {
+  position: absolute;
+  top: 15px;
+  right: 20px;
+  cursor: pointer;
+}
+footer {
+  padding-top: 58px;
+  padding-bottom: 42px;
+  padding-left: 12px;
+  padding-right: 12px;
+  margin-top: 60px;
+}
+.social-link {
+  gap: 3px;
+}
+.footer-links {
+  flex-direction: column;
+  gap: 5px;
+}
+.footer-main {
+  justify-content: space-between;
+  gap: 10px;
+  align-items: center;
+}
+.page-links {
+  gap: 15px;
+  align-items: center;
+  flex-wrap: wrap;
+}
+footer a {
+  line-height: 357%;
+}
+.line {
+  width: 3px;
+  height: 20px;
+  background-color: white;
+}
+/* Responsive */
+@media (max-width: 1024px) {
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: block;
+  }
+
+  .contact-nav-btn {
+    display: none;
+  }
+  .contact-text {
+    font-size: 36px;
+  }
+  .footer-main {
+    flex-direction: column;
+  }
+}
+@media (max-width: 640px) {
+  .hero-section {
+    padding: 20px 0px 40px 0px;
+  }
+  .hero-text {
+    font-size: 26px;
+  }
+  .hero-text2 {
+    margin-top: 16px;
+    font-size: 12px;
+  }
+  .schedule-hero-btn {
+    width: 250px;
+    margin-bottom: 40px;
+    font-size: 12px;
+  }
+  .contact-text {
+    font-size: 26px;
+  }
+  .contactus-main {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .contact-us {
+    flex-direction: column;
+  }
+  .contactus-line-img {
+    display: none;
+  }
+}
