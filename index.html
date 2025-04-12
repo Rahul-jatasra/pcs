@@ -3,18 +3,54 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="title" content="Meta Tags — Preview, Edit and Generate" />
     <title>PCS</title>
+    <meta
+      name="description"
+      content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!"
+    />
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://metatags.io/" />
+    <meta
+      property="og:title"
+      content="Meta Tags — Preview, Edit and Generate"
+    />
+    <meta
+      property="og:description"
+      content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!"
+    />
+    <meta
+      property="og:image"
+      content="https://metatags.io/images/meta-tags.png"
+    />
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://metatags.io/" />
+    <meta
+      property="twitter:title"
+      content="Meta Tags — Preview, Edit and Generate"
+    />
+    <meta
+      property="twitter:description"
+      content="With Meta Tags you can edit and experiment with your content then preview how your webpage will look on Google, Facebook, Twitter and more!"
+    />
+    <meta
+      property="twitter:image"
+      content="https://metatags.io/images/meta-tags.png"
+    />
+
     <link rel="stylesheet" href="/assets/css/style.css" />
     <link rel="stylesheet" href="/assets/css/roots.css" />
   </head>
   <body>
     <!-- main section -->
     <nav>
-      <div class="max-w">
+      <div class="container">
         <!-- navbar section -->
         <div class="d-flex text-white hero-section">
           <img
-            src="/assets/images/png/logo-img.png"
+            src="/assets/images/png/logo.png"
             alt="logo"
             width="265px"
             height="34px"
@@ -28,18 +64,18 @@
             <a class="text-white fs-sm fw-500" href="#">Careers</a>
             <a class="text-white fs-sm fw-500" href="#">Blog</a>
           </div>
-          <!--  Icon -->
-          <div class="hamburger" id="hamburger">&#9776;</div>
           <button class="contact-nav-btn bg-red text-white fw-700 fs-sm">
             CONTACT US
           </button>
+          <!--  Icon -->
+          <div class="hamburger" id="hamburger">&#9776;</div>
         </div>
         <div class="hero-main">
           <p class="text-white fs-lg fw-500">Service, Security & Strategy</p>
-          <p class="text-white fs-xxl fw-800 hero-text">
+          <h1 class="text-white fs-xxl fw-800 hero-text">
             Expert IT support with a human touch—keeping your business running
             and secure
-          </p>
+          </h1>
           <p class="text-white fs-md fw-500 hero-text2">
             Your trusted managed service provider in Council Bluffs & Omaha -
             Offering expert IT and Cybersecurity services for small businesses
@@ -55,7 +91,7 @@
     <div class="sidebar" id="sidebar">
       <span class="close-btn fs-xl text-white" id="closeBtn">&times;</span>
       <img
-        src="/assets/images/png/logo-img.png"
+        src="/assets/images/png/logo.png"
         alt="logo"
         width="265px"
         height="34px"
@@ -66,16 +102,285 @@
       <a class="text-white fs-sm fw-500" href="#">Testimonials</a>
       <a class="text-white fs-sm fw-500" href="#">Careers</a>
       <a class="text-white fs-sm fw-500" href="#">Blog</a>
+      <button class="contact-sidebar-btn bg-red text-white fw-700 fs-sm">
+        CONTACT US
+      </button>
     </div>
     <main>
+      <!-- How We Do It -->
+      <section class="container card-section d-flex">
+        <h2 class="text-blue fs-xxl fw-800 card-section-text">How We Do It</h2>
+        <div class="d-flex cards-main">
+          <!-- 1st card -->
+          <div class="card d-flex">
+            <div class="service-card-logo d-flex bg-red">
+              <img
+                src="/assets/images/png/service-logo.png"
+                alt="service logo"
+                width="58px"
+                height="63px"
+              />
+            </div>
+            <p class="text-blue text-center fs-xl fw-800">SERVICE</p>
+            <div class="d-flex service-card">
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">Ticket Management/SLA's</p>
+              </div>
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">Ticket Escalation</p>
+              </div>
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">Proactive Maintenance</p>
+              </div>
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">Patch Management</p>
+              </div>
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">Automation</p>
+              </div>
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">Best Practices</p>
+              </div>
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">Tools and Monitoring</p>
+              </div>
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">
+                  Business Application Support
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- 2nd card -->
+          <div class="card d-flex">
+            <div class="service-card-logo d-flex bg-red">
+              <img
+                src="/assets/images/png/security-logo.png"
+                alt="service logo"
+                width="58px"
+                height="63px"
+              />
+            </div>
+            <p class="text-blue text-center fs-xl fw-800">SECURITY</p>
+            <div class="d-flex service-card">
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">Compliance</p>
+              </div>
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">IT Security Assessment</p>
+              </div>
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">Remediation Schedule</p>
+              </div>
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">Disaster Recovery Plan</p>
+              </div>
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">Business Continuity</p>
+              </div>
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">Planning User Security</p>
+              </div>
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">Awareness Training</p>
+              </div>
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">Backups EDR/MDR</p>
+              </div>
+            </div>
+          </div>
+          <!-- 3rd card -->
+          <div class="card d-flex">
+            <div class="service-card-logo d-flex bg-red">
+              <img
+                src="/assets/images/png/strategy-logo.png"
+                alt="service logo"
+                width="58px"
+                height="63px"
+              />
+            </div>
+            <p class="text-blue text-center fs-xl fw-800">STRATEGY</p>
+            <div class="d-flex service-card">
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">Budget Planning</p>
+              </div>
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">Strategic Planning</p>
+              </div>
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">Increased Productivity</p>
+              </div>
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">Increased Efficiency</p>
+              </div>
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">Vendor Relationships</p>
+              </div>
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">Project Management</p>
+              </div>
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">IT Systems Documentation</p>
+              </div>
+              <div class="d-flex services-content">
+                <img
+                  src="/assets/images/png/play-icon.png"
+                  alt="play icon"
+                  width="10px"
+                  height="12px"
+                />
+                <p class="text-blue fs-md fw-500">Microsoft 365</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <!-- Business-class IT solutions section -->
       <section class="contactus-main">
-        <div class="max-w d-flex contact-us">
+        <div class="container d-flex contact-us">
           <p class="text-white fs-xxl fw-800 contact-text">
             Business-class IT solutions for your nonprofit or company
           </p>
           <img
-            src="/assets/images/png/contactus-line-img.png"
+            src="/assets/images/png/contactus-line.png"
             alt="line image"
             width="18px"
             height="173px"
@@ -88,33 +393,36 @@
       </section>
     </main>
     <footer class="bg-blue">
-      <div class="max-w d-flex footer-main">
+      <div class="container d-flex footer-main">
         <img
-          src="/assets/images/png/logo-img.png"
+          src="/assets/images/png/logo.png"
           alt="logo"
           width="265px"
           height="34px"
         />
         <div class="d-flex footer-links">
           <div class="d-flex social-link">
-            <img
-              src="/assets/images/png/facebook-img.png"
-              alt="social media"
-              width="51px"
-              height="51px"
-            />
-            <img
-              src="/assets/images/png/twitter-img'.png"
-              alt="social media"
-              width="51px"
-              height="51px"
-            />
-            <img
-              src="/assets/images/png/linkdin-img.png"
-              alt="social media"
-              width="51px"
-              height="51px"
-            />
+            <a href="#">
+              <img
+                src="/assets/images/png/facebook.png"
+                alt="social media"
+                width="51px"
+                height="51px"
+            /></a>
+            <a href="#">
+              <img
+                src="/assets/images/png/twitter.png"
+                alt="social media"
+                width="51px"
+                height="51px"
+            /></a>
+            <a href="#">
+              <img
+                src="/assets/images/png/linkdin.png"
+                alt="social media"
+                width="51px"
+                height="51px"
+            /></a>
           </div>
           <div class="d-flex page-links">
             <a href="#" class="text-white fs-sm fw-600">Nonprofits</a>
@@ -131,7 +439,9 @@
             <div class="line"></div>
             <a href="#" class="text-white fs-sm fw-600">Contact Us</a>
           </div>
-          <p class="text-white fs-sm fw-600">Copyright © 2025 American-Pcs. All rights reserved.</p>
+          <p class="text-white fs-sm fw-600">
+            Copyright © 2025 American-Pcs. All rights reserved.
+          </p>
         </div>
       </div>
     </footer>
